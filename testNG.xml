@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="3" parallel="tests">
+
+    <test name="TestSuit1" parallel="tests" >
+        <classes>
+            <class name="Adjarabet" />
+        </classes>
+    </test>
+
+    <test name="TestSuit2" parallel="tests" >
+        <classes>
+            <class name="Google" />
+        </classes>
+    </test>
+
+    <test name="TestSuit3" parallel="tests" >
+        <classes>
+            <class name="home.Ignoretests" />
+        </classes>
+    </test>
+
+    <test name="TestSuit4" parallel="tests" >
+        <classes>
+            <class name="home.Testannotations" />
+
+        </classes>
+    </test>
+
+</suite>
